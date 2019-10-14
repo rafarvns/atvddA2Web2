@@ -1,4 +1,4 @@
-package atividadewebjsf.dao;
+package atividade2webjsf.dao;
 
 import com.querydsl.jpa.impl.JPAQuery;
 

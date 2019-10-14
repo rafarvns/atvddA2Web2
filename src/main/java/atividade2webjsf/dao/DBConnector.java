@@ -1,4 +1,4 @@
-package atividadewebjsf.dao;
+package atividade2webjsf.dao;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -8,7 +8,7 @@ public class DBConnector {
     EntityManagerFactory factory = null;
     public DBConnector(){
         this.factory = Persistence.
-                createEntityManagerFactory("atvddwebDS");
+                createEntityManagerFactory("atvdd2webDS");
     }
 
     public EntityManager getEntityManager(){
